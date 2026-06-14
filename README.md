@@ -21,10 +21,12 @@ This app supports:
 
 ## Screenshots
 
+### Main Dashboard
 ![Dashboard overview](docs/dashboard_1.png)
 
 ![Dashboard results and metrics](docs/dashboard_2.png)
 
+### Dark Mode
 ![Dark mode overview](docs/dark_mode_1.png)
 
 ![Dark mode results](docs/dark_mode_2.png)
