@@ -330,7 +330,7 @@ The backend returns mock responses when:
 
 - `MOCK_MODE=true`
 - a provider API key is missing
-- CI is running without secrets
+- the GitHub Actions evaluation workflow, which forces mock responses for deterministic checks
 
 This allows the UI and evaluation pipeline to run without paid dependencies.
 
