@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Puma football and performance culture visibility",
+    "prompt": "How can {{brand}} strengthen its position as a football and performance culture brand through sponsorships, athlete partnerships, product innovation, and streetwear relevance?",
+    "variables": {
+      "brand": "Puma",
+      "industry": "Global sportswear, football sponsorships, and performance culture"
+    },
+    "keywords": ["Puma", "football sponsorship", "sportswear", "athlete partnerships", "performance culture"],
+    "contextDocument": "PUMA is a global sportswear and lifestyle brand with deep roots in football, running, motorsport, training, and street culture. The brand is known for football boots, performance apparel, training shoes, collaborations with athletes and designers, and partnerships with football clubs, federations, and high-profile players. Its positioning blends competitive performance with speed, style, and cultural relevance, reaching football fans, athletes, sneaker collectors, and fashion-conscious consumers. A strong PUMA message should connect product innovation, football sponsorship, athlete credibility, and lifestyle visibility without narrowing the brand to a single retail channel.",
+    "ragEnabled": true,
+    "expectedMinimumScore": 60,
+    "providers": ["openrouter", "local"]
+  },
+  {
+    "name": "Brand visibility",
+    "prompt": "Explain how {{brand}} improves brand visibility in {{industry}}.",
+    "variables": {
+      "brand": "Puma",
+      "industry": "Global sportswear, football sponsorships, and performance culture"
+    },
+    "keywords": ["Puma", "brand", "visibility"],
+    "contextDocument": "Puma builds visibility through athlete partnerships, football sponsorships, distinctive product design, and retail campaigns across sportswear and lifestyle channels.",
+    "ragEnabled": true,
+    "expectedMinimumScore": 60,
+    "providers": ["openrouter", "local"]
+  }
+]

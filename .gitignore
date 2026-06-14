@@ -1,0 +1,9 @@
+node_modules/
+dist/
+playground.db
+.env
+.env.local
+.env.keys
+.DS_Store
+coverage/
+.vite/

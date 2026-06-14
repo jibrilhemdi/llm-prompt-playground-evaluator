@@ -1,0 +1,25 @@
+{
+  "name": "llm-prompt-playground-evaluator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LLM Prompt Playground & Evaluator for comparing provider outputs and quantitative prompt quality metrics.",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
+    "build": "npm run build --workspace backend && npm run build --workspace frontend",
+    "typecheck": "npm run typecheck --workspace backend && npm run typecheck --workspace frontend",
+    "test": "npm run test:ai",
+    "test:ai": "tsx scripts/evaluate-ai.ts"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
